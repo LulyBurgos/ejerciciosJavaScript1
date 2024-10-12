@@ -21,7 +21,7 @@ function compareTenAndNine() {
      const descuento=0.25;
      const dineroDisponible=1150;
      const preciofinal= precioProducto - (precioProducto * descuento);
-     console.log(dineroDisponible>=preciofinal ? "se puede comprar producto" ; "no se puede comprar el producto");//true
+     console.log(dineroDisponible>=preciofinal ? "se puede comprar producto" : "no se puede comprar el producto");//true
      }
  
  // Variables
