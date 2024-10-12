@@ -1,7 +1,7 @@
 // Operadores de comparación
 // 1. Comprueba si 10 es mayor o igual que 9 e imprime el resultado en consola.
 function compareTenAndNine() {
-    console.log(10<=9);//true
+    console.log(10>=9);//true
  }
  
  // 2. Comprueba si 0 es igual a 0 e imprime el resultado en consola.
@@ -19,10 +19,10 @@ function compareTenAndNine() {
  function canBuyProduct() {
      const precioProducto=1500;
      const descuento=0.25;
-     const precioConDescuento= precioProducto - (precioProducto * descuento);
-     const dineroConDescuento=1150;
-     console.log(precioProducto*(1-descuento)<=dineroDisponible);//true
- }
+     const dineroDisponible=1150;
+     const preciofinal= precioProducto - (precioProducto * descuento);
+     console.log(dineroDisponible>=preciofinal ? "se puede comprar producto" ; "no se puede comprar el producto");//true
+     }
  
  // Variables
  // 5. Crea una variable llamada `mensaje` y asígnale el valor "Hola JavaScript", luego imprime la variable en consola.
